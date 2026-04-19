@@ -1,0 +1,14 @@
+version: '3.7'
+
+services:
+  app_proxy:
+    environment:
+      APP_HOST: brcly-playit_server_1
+      APP_PORT: 8008
+      PROXY_AUTH_ADD: "false"
+  
+  server:
+    image: wisdomsky/playit-docker-web:latest
+    restart: on-failure
+    volumes:
+      - ${APP_DATA_DIR}/data/config:/config

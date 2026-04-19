@@ -28,7 +28,7 @@ description: >-
   🔑 The default username for Crafty Controller is 'admin', and the password is randomly generated. You can find the password in the file located at: /umbrel/app-data/cubes-crafty/config/default-creds.txt. It is highly recommended to change the password immediately after logging in for security purposes.
 developer: Arcadia Technology
 website: https://craftycontrol.com/
-submitter: dennysubke
+submitter: cubes
 submission: https://github.com/getumbrel/umbrel-apps/pull/
 repo: https://gitlab.com/crafty-controller
 support: https://gitlab.com/groups/crafty-controller/-/issues
@@ -39,7 +39,7 @@ gallery:
   - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-crafty/4.jpg
   - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-crafty/5.jpg
 releaseNotes: >-
-  Version 4.5.4 fixes bugs by refactoring the upload process to ensure asynchronous file operations. It also removes all third-party font requests.
+  Version 4.10.3 refactors core components and fixes dashboard layout, typing issues, and an authentication security vulnerability.
 dependencies:
 path: "https://umbrel.local:18443"
 defaultUsername: "admin"

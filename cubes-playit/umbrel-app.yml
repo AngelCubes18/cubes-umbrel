@@ -1,0 +1,19 @@
+manifestVersion: 1
+id: cubes-playit #only shows in app store when setting the store name first. Weird
+name: Playit
+tagline: Allow outside connections to game servers through tunnelling.
+icon: https://cdn.jsdelivr.net/gh/WisdomSky/CasaOS-Coolstore@main/Apps/playit-docker-web/icon.png
+category: Gaming
+version: "0.17.1"
+port: 8585
+description: >-
+  Playit allows outside connections to tunnel into your self-hosted game servers.
+developer: PlayIt
+website: https://playit.gg
+submitter: cubes
+submission: https://github.com/getumbrel/umbrel-apps/pull/
+gallery:
+ - https://raw.githubusercontent.com/WisdomSky/playit-docker-web/main/screenshot-1.png
+path: ""
+defaultUsername: ""
+defaultPassword: ""
