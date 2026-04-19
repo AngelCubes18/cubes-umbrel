@@ -3,7 +3,7 @@ version: '3.7'
 services:
   app_proxy:
     environment:
-      APP_HOST: brcly-playit_server_1
+      APP_HOST: cubes-playit_server_1
       APP_PORT: 8008
       PROXY_AUTH_ADD: "false"
   

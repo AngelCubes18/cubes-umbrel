@@ -4,7 +4,7 @@ name: Playit
 tagline: Allow outside connections to game servers through tunnelling.
 icon: https://cdn.jsdelivr.net/gh/WisdomSky/CasaOS-Coolstore@main/Apps/playit-docker-web/icon.png
 category: Gaming
-version: "0.17.1"
+version: "latest"
 port: 8585
 description: >-
   Playit allows outside connections to tunnel into your self-hosted game servers.
