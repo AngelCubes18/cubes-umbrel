@@ -11,7 +11,7 @@ releaseNotes: >-
 developer: crafty-controller
 website: https://hub.docker.com/r/crafty-controller/crafty-4
 dependencies: []
-repo: https://github.com/bigbeartechworld/big-bear-universal-apps
+repo: https://github.com/AngelCubes18/cubes-umbrel
 support: https://github.com/bigbeartechworld/big-bear-universal-apps/issues
 port: 10028
 gallery:
@@ -22,5 +22,5 @@ path: ""
 defaultUsername: "admin"
 defaultPassword: "$APP_PASSWORD"
 icon: https://cdn.jsdelivr.net/gh/selfhst/icons/png/crafty-controller.png
-submitter: BigBearTechWorld
-submission: https://github.com/bigbeartechworld/big-bear-universal-apps
+submitter: AngelCubes18
+submission: https://github.com/AngelCubes18/cubes-umbrel
