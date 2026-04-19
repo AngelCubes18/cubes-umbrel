@@ -22,20 +22,21 @@ services:
       start_period: 20s
 
   server:
-    image: registry.gitlab.com/crafty-controller/crafty-4:4.10.3
-    restart: unless-stopped
+    image: registry.gitlab.com/crafty-controller/crafty-4:4.10.3@sha256:062a39c9fc11f993995d977c810fd83c84fc155fd13b13117985e555d55e0ab9
+    restart: on-failure
+    entrypoint: /seed-default-config.sh
     environment:
       - TZ=Etc/UTC
       - APP_PASSWORD=$APP_PASSWORD
     volumes:
-      - ${APP_DATA_DIR}/config:/app/config
+      - ./seed-default-config.sh:/seed-default-config.sh:ro
       - ${APP_DATA_DIR}/data/backups:/crafty/backups
       - ${APP_DATA_DIR}/data/logs:/crafty/logs
       - ${APP_DATA_DIR}/data/servers:/crafty/servers
       - ${APP_DATA_DIR}/data/config:/crafty/app/config
       - ${APP_DATA_DIR}/data/import:/crafty/import
     healthcheck:
-      test: ["CMD-SHELL", "wget -qO- http://localhost:8443 >/dev/null 2>&1"]
+      test: ["CMD-SHELL", "wget -qO- --no-check-certificate https://localhost:8443 >/dev/null 2>&1"]
       interval: 20s
       timeout: 10s
       retries: 15

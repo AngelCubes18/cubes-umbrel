@@ -7,7 +7,7 @@ tagline: Crafty Controller
 description: >-
   Crafty 4 is the next iteration of our Minecraft Server Wrapper / Controller / Launcher.
 releaseNotes: >-
-  This version includes various improvements and bug fixes.
+  Updated to Crafty Controller 4.10.3. Fixed app_proxy and nginx configuration to correctly resolve service hostnames. Added automated credential seeding.
 developer: crafty-controller
 website: https://hub.docker.com/r/crafty-controller/crafty-4
 dependencies: []
@@ -19,8 +19,8 @@ gallery:
   - 2.jpg
   - 3.jpg
 path: ""
-defaultUsername: ""
-defaultPassword: ""
+defaultUsername: "admin"
+defaultPassword: "$APP_PASSWORD"
 icon: https://cdn.jsdelivr.net/gh/selfhst/icons/png/crafty-controller.png
 submitter: AngelCubes18
 submission: https://github.com/AngelCubes18/cubes-umbrel
