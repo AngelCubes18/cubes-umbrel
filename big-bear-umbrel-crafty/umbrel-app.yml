@@ -19,8 +19,8 @@ gallery:
   - 2.jpg
   - 3.jpg
 path: ""
-defaultUsername: "admin"
-defaultPassword: "$APP_PASSWORD"
+defaultUsername: ""
+defaultPassword: ""
 icon: https://cdn.jsdelivr.net/gh/selfhst/icons/png/crafty-controller.png
 submitter: AngelCubes18
 submission: https://github.com/AngelCubes18/cubes-umbrel
