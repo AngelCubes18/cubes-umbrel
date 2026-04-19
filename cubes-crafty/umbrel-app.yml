@@ -1,10 +1,10 @@
 manifestVersion: 1
-id: denny-crafty
+id: cubes-crafty
 name: Crafty Controller
 tagline: An intuitive way to automate and manage your Minecraft server with ease
 icon: https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-crafty/logo.png
 category: gaming
-version: "4.5.4"
+version: "4.10.3"
 port: 18443
 description: >-
   ⛏️ Crafty Controller is an open-source, web-based interface designed to manage and control Crafty Bots, which are used for automating and managing Minecraft servers. Crafty itself is a bot framework that allows administrators to automate various tasks on Minecraft servers, from running tests to managing in-game events, controlling server settings, and much more. Crafty Controller provides a centralized platform where administrators can monitor and control these bots from one place.
