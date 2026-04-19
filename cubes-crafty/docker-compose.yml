@@ -2,7 +2,6 @@ version: "3.7"
 
 services:
   crafty:
-    container_name: crafty_container
     image: registry.gitlab.com/crafty-controller/crafty-4:latest
     restart: unless-stopped
 
@@ -18,3 +17,6 @@ services:
 
     environment:
       - TZ=Europe/Madrid
+
+    networks:
+      - default
