@@ -39,7 +39,7 @@ gallery:
   - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-crafty/4.jpg
   - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-crafty/5.jpg
 releaseNotes: >-
-  Version 4.10.3 refactors core components and fixes dashboard layout, typing issues, and an authentication security vulnerability.
+  Version 4.10.4: Python based Control Panel for your Minecraft Server
 dependencies:
 path: "https://umbrel.local:18443"
 defaultUsername: "admin"
