@@ -1,0 +1,30 @@
+manifestVersion: 1
+id: cubes-nextcloud
+category: files
+name: Nextcloud
+version: "33.0.2"
+tagline: Sync & share your files in your own cloud
+description: >-
+  Nextcloud is a suite of client-server software for creating and using file
+  hosting services. It is enterprise-ready with enterprise features and
+  a broad partner ecosystem.
+
+  Store your files, calendars, contacts, and more — all self-hosted on your Umbrel,
+  with files stored on your external drive.
+developer: Nextcloud GmbH
+website: https://nextcloud.com
+dependencies: []
+repo: https://github.com/nextcloud/server
+support: https://help.nextcloud.com
+port: 8083
+gallery:
+  - images/gallery-1.png
+  - images/gallery-2.png
+  - images/gallery-3.png
+path: ""
+defaultUsername: umbrel
+defaultPassword: $APP_PASSWORD
+releaseNotes: >-
+  Nextcloud 33.0.2. Files stored on external drive (HGST HTS541).
+submitter: AngelCubes18
+submission: https://github.com/AngelCubes18/cubes-umbrel
