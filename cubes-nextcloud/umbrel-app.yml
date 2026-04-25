@@ -2,7 +2,7 @@ manifestVersion: 1
 id: cubes-nextcloud
 category: files
 name: Nextcloud
-icon: https://raw.githubusercontent.com/nextcloud/server/refs/heads/master/core/img/logo/logo.png
+icon: https://getumbrel.github.io/umbrel-apps-gallery/nextcloud/icon.svg
 version: "33.0.2"
 tagline: Sync & share your files in your own cloud
 description: >-
