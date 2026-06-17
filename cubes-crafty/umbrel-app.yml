@@ -4,7 +4,7 @@ name: Crafty Controller
 tagline: An intuitive way to automate and manage your Minecraft server with ease
 icon: https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-crafty/logo.png
 category: Gaming
-version: "4.10.4"
+version: "4.10.7"
 port: 18443
 description: >-
   ⛏️ Crafty Controller is an open-source, web-based interface designed to manage and control Crafty Bots, which are used for automating and managing Minecraft servers. Crafty itself is a bot framework that allows administrators to automate various tasks on Minecraft servers, from running tests to managing in-game events, controlling server settings, and much more. Crafty Controller provides a centralized platform where administrators can monitor and control these bots from one place.
@@ -39,7 +39,12 @@ gallery:
   - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-crafty/4.jpg
   - https://raw.githubusercontent.com/dennysubke/dennys-umbrel-app-gallery/main/denny-crafty/5.jpg
 releaseNotes: >-
-  Version 4.10.4: Python based Control Panel for your Minecraft Server
+  Fix python 3.13+ specific notation to add support back for 3.10-12 (Merge Request)
+Fix Bedrock server creation and updates due to static FileHelpers.ssl_file_get() call (Merge Request)
+Fix Java server updates due to static FileHelpers.ssl_file_get() call (Merge Request)
+Fix modded server installs failing on non-windows environments (Merge Request)
+Fix Hytale server creation hanging on "Importing..." (Merge Request)
+Fix CPU pinned at 100% after terminal buffer changes (Merge Request)
 dependencies:
 path: "https://umbrel.local:18443"
 defaultUsername: "admin"
