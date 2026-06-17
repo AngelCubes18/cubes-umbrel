@@ -15,4 +15,4 @@ services:
       - ${APP_DATA_DIR}/data/servers:/crafty/servers
       - ${APP_DATA_DIR}/data/config:/crafty/app/config
       - ${APP_DATA_DIR}/data/import:/crafty/import
-    restart: unless-stopped
+    restart: on-failure
