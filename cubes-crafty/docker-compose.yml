@@ -1,5 +1,3 @@
-version: '3.7'
-
 services:
   crafty:
     container_name: crafty_container
@@ -15,4 +13,4 @@ services:
       - ${APP_DATA_DIR}/data/servers:/crafty/servers
       - ${APP_DATA_DIR}/data/config:/crafty/app/config
       - ${APP_DATA_DIR}/data/import:/crafty/import
-    restart: on-failure
+    restart: unless-stopped
